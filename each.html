@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<button>click here</button>
+
+<ul>
+  <li>cricket</li>
+  <li>hockey</li>
+  <li>football</li>
+    <li>handball</li>
+
+</ul>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("li").each(function(){
+            alert($(this).text())
+        });
+    });
+});
+</script>
+</html>
+    
+    
+    
